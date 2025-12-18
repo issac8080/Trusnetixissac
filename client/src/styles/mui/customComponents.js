@@ -11,25 +11,36 @@ import { styled } from "@mui/material/styles";
 export const MyCard = styled(Card)(({ theme }) => ({
   borderRadius: "25px",
   backgroundColor: theme.palette.background.paper,
-  boxShadow: "0 0 8px 4px #00000010"
+  boxShadow: "0 0 8px 4px #00000010",
+}));
+
+export const MyButton = styled(Button)(({ theme }) => ({
+  borderRadius: "20px",
+  textTransform: "none",
+  padding: "6px 16px",
+  fontWeight: 600,
+  backgroundColor: theme.palette.primary.main,
+  color: "#fff",
+
+  "&:hover": {
+    backgroundColor: theme.palette.primary.dark,
+  },
 }));
 
 export const CustomCard = (props) => (
-  <MyCard sx={{}}>
+  <MyCard>
     <CardMedia sx={{ height: 300 }} image={props.image} title={props.name} />
     <CardContent>
-      <Typography gutterBottom variant="h5" component="div">
+      <Typography gutterBottom variant="h5">
         {props.name}
       </Typography>
-      <Typography variant="body2" sx={{ color: "text.secondary" }}>
+      <Typography variant="body2" color="text.secondary">
         {props.description}
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size="small">Share</Button>
-      <Button size="small">Learn More</Button>
+      <MyButton size="small">Share</MyButton>
+      <MyButton size="small">Learn More</MyButton>
     </CardActions>
   </MyCard>
 );
-
-// Make a Custom Button Here

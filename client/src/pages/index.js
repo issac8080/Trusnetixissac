@@ -36,7 +36,7 @@ export default function Home() {
   const movies = [
     {
       name: "Avengers",
-      img: "https://imgix.ranker.com/list_img_v2/18864/1998864/original/the-best-the-avengers-quotes",
+      img: "https://tse3.mm.bing.net/th/id/OIP.0sL7kz85Olcrwk_GIrClYAHaF7?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
       desc: "Directed By Joss Whedon",
     },
     {
@@ -56,7 +56,7 @@ export default function Home() {
     },
     {
       name: "Superman",
-      img: "https://image.tmdb.org/t/p/original/3rGzY1RaVgWIP4GuOTwdHwHXSgM.jpg",
+      img: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b23ca798-6ef7-4aa1-9d22-aeb7dd27d065/demni6y-25f779a9-6b77-4d04-95be-7696f40e03ec.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IyM2NhNzk4LTZlZjctNGFhMS05ZDIyLWFlYjdkZDI3ZDA2NVwvZGVtbmk2eS0yNWY3NzlhOS02Yjc3LTRkMDQtOTViZS03Njk2ZjQwZTAzZWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1oiAL5TnS-Je3MravqcbFJ98ev2y0ublYfO9YwklchA",
       desc: "Directed by James Gunn",
     },
   ];
